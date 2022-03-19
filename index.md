@@ -1,37 +1,26 @@
-##GIT学习笔记
+# GIT学习笔记
+## 一、版本控制
+### 什么是版本控制
+版本控制是一种在开发的过程中用于管理我们对文件、目录或工程等内容的修改历史，方便查看更改历史记录，备份一边恢复以前的版本的软件工程技术
+### 常用版本控制工具
+*GIt
+*SVN
+*CVS
+*VSS
+*TFS
 
-You can use the [editor on GitHub](https://github.com/sheep0324/sheep0324.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### 版本控制分类
+#### 1.本地版本控制
+记录文件每次的更新，可以对每一个版本做一个快照，或是记录补丁文件，适合个人用
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://user-images.githubusercontent.com/101880310/159112245-fc442017-9a5d-4c6a-8fe1-b1f1913e0157.png)
 
-### Markdown
+#### 2.集中版本控制
+所有需要的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传自己的修改
+![image](https://user-images.githubusercontent.com/101880310/159112141-925ee5e9-ff31-42ec-a26c-a8054163fd5c.png)
+![image](https://user-images.githubusercontent.com/101880310/159112166-1954fda9-d168-46d4-bd7b-5a565b4748bd.png)
+#### 3.分布式版本控制  GIT
+![image](https://user-images.githubusercontent.com/101880310/159112295-f6ca6cc1-5277-4329-aa6c-68f26abc0cc0.png)
+![image](https://user-images.githubusercontent.com/101880310/159112322-7c437942-cf02-4c43-8edc-822d7d392298.png)
+![image](https://user-images.githubusercontent.com/101880310/159112343-d3d82ccb-82e2-4b95-8f47-e8e25ab5991d.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sheep0324/sheep0324.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
